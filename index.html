@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+
+      body{
+        background-image:url("https://img.freepik.com/free-vector/travel-background_23-2148057717.jpg");
+      }
+
+.card {
+       padding: 3px 5px;
+            border-radius: 12px;
+            transition: transform 0.2s, background-color 0.2s;
+            cursor: default;
+    }
+
+   .card:hover {
+   background-color: gray;
+   transform:scale(1.1)   
+}
+
+
+
+.col-6:hover {
+  transform: scale(0.9);
+}
+      
+     
+      
+    </style>
+    
+</head>
+<body>
+    <!--NAv BAR-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="klogo.jpg" alt="logo" width="80" /></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#destination"><b>Destination</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about"><b>About</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#hotels">Hotels</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#contact us">Contact Us</a>
+        </li>  
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--carousel-->
+
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+   </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="mysore palace.jpg" class="d-block w-100" alt="palace">
+    </div>
+    <div class="carousel-item">
+      <img src="CHAMUNDI BETTA.jpg" class="d-block w-100" alt="betta">
+    </div>
+    <div class="carousel-item">
+      <img src="LMP.jpg" class="d-block w-100" alt="lalitha">
+    </div>
+    <div class="carousel-item">
+      <img src="KRS.jpg" class="d-block w-100" alt="krs">
+    </div>
+     
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--Main Container-->
+<div class="container">
+    <h1 class="text-center p-5 mb-5 mt-5" style="color: darkred;">Tour Mysore Today!</h1>
+
+
+    <div class="w-100 bg-dark-subtle p-5 mb-5">
+        <p>Mysore, officially known as Mysuru, is one of the most beautiful and historic cities in Karnataka. It is famous for its rich cultural heritage, magnificent palaces, and traditional festivals. The city is especially known for the grand Mysore Palace, which attracts thousands of tourists every year with its stunning architecture and dazzling illumination during festivals. Mysore is also called the “City of Palaces” and is popular for its silk sarees, sandalwood products, and incense sticks. The Chamundi Hills, located near the city, provide a scenic view and are home to the famous Chamundeshwari Temple. The world-famous Mysore Dasara festival is celebrated with great enthusiasm, showcasing the royal heritage and cultural traditions of the region. With its clean streets, pleasant climate, and historical importance, Mysore is one of the top tourist destinations in South India.</p>
+        <button type="button" class="btn btn-primary btn-lg">Book Your Trip Now</button>
+    </div>
+
+
+    <h2 id="destination" class="fs-1 p-5 mt-5 text-center" style="color: darkviolet;">POPULAR DESTINATIONS</h2>
+  
+
+    <div class="row">
+        <div class="col">
+
+            <!--Card1-->
+<div class="card" style="width: 18rem;">
+  <img src="church.jpg" class="card-img-top" alt="church">
+  <div class="card-body">
+    <h5 class="card-title">St. Philomena’s Church</h5>
+    <p class="card-text">St. Philomena's Church in Mysore is one of the most magnificent churches in India. Built in 1936, it is designed in Neo-Gothic style, inspired by the famous Cologne Cathedral in Germany. The church is dedicated to Saint Philomena, a Roman Catholic saint and martyr. It is known for its tall twin spires, beautiful stained-glass windows, and peaceful atmosphere. The colorful glass panels inside the church depict important scenes from the life of Jesus Christ. The church can accommodate around 800 people and attracts visitors from different religions because of its grand architecture and calm surroundings. Located near the Mysore Palace, it is one of the main tourist attractions in Mysuru.</p>
+    <a href="#" class="btn btn-primary">Read More</a>
+  </div>
+  </div>
+ </div>
+
+          
+       
+
+            <!--Card2-->
+             <div class="col">
+<div class="card" style="width: 18rem;">
+  <img src="VGSB.jpg" class="card-img-top" alt="church">
+  <div class="card-body">
+    <h5 class="card-title">VenuGopalaSwami Betta</h5>
+    <p class="card-text">Venugopalaswamy Betta is a beautiful hilltop temple located near Krishna Raja Sagar (KRS) in Mysuru district, Karnataka. The temple is dedicated to Lord Krishna in the form of Venugopala (Krishna playing the flute). It was originally built in the 12th century during the Hoysala period and was later relocated and restored because the old temple site was submerged due to the KRS dam.
+
+The temple stands on a small hill (betta) surrounded by the scenic backwaters of KRS, offering a peaceful and breathtaking view, especially during sunrise and sunset. The architecture reflects traditional Hoysala style with detailed carvings and stone structures. Today, Venugopalaswamy Betta is a popular tourist spot for photography, sightseeing, and spiritual visits. Its calm environment and natural beauty make it one of the hidden gems near Mysuru.</p>
+    <a href="#" class="btn btn-primary">Read More</a>
+  </div>
+  </div>
+ </div>
+
+
+       
+
+            <!--Card3-->
+             <div class="col">
+<div class="card" style="width: 18rem;">
+  <img src="Museum.jpg" class="card-img-top" alt="church">
+  <div class="card-body">
+    <h5 class="card-title"><b>Rail Museum</b></h5>
+    <p class="card-text">The Railway Museum in Mysore is one of the most interesting attractions for history and train lovers. It was established in 1979 by Indian Railways and is the second railway museum in India after Delhi. The museum displays vintage steam locomotives, royal coaches, old railway equipment, and photographs that show the development of railways in India.
+
+One of the main attractions is the Maharani’s Saloon Coach, which was used by the royal family of Mysore. Visitors can also see antique signals, telegraph instruments, and different types of railway engines. The museum has a small toy train ride that is especially popular among children.</p>
+    <a href="#" class="btn btn-primary">Read More</a>
+  </div>
+  </div>
+ </div>
+ 
+</div>
+</div>
+
+<!--About-->
+<h2 id="about" class="fs-1 p-5 mt-5 text-center" style="color:red"><b>About</b></h2>
+<div class="row">
+  <div class="col-6">
+    <div class="bg-dark-subtle text-black p-5 mt-5 mb-5">
+      <h2>Rates</h2>
+      <p>Tourism is the activity of traveling to different places for enjoyment, business, adventure, or relaxation. It plays an important role in the economic and social development of a country. Tourism creates employment opportunities in hotels, transportation, restaurants, and tourist attractions. It also helps in promoting culture, traditions, and heritage to people from different parts of the world. India is a popular tourist destination because of its historical monuments like the Taj Mahal, beautiful beaches in Goa, and cultural cities like Mysore.</p>
+    </div>
+  </div>
+
+<!--Rates2-->
+ <div class="col-6">
+    <div class="bg-dark text-white p-5 mt-5 mb-5">
+      <h2>Fees</h2>
+      <p>Our tourism website offers affordable and flexible travel packages designed for families, couples, students, and group travelers. Prices start from ₹4,999 for short heritage trips and go up to ₹12,999 for premium beach and resort packages. Each package includes comfortable accommodation, transportation, sightseeing, and guided tours to ensure a smooth travel experience. We also provide optional services like travel insurance, airport pickup, and VIP guide support at additional charges. Special discounts are available for students and group bookings.</p>
+    </div>
+  </div>
+
+<!--Rates3-->
+   <div class="col-6">
+    <div class="bg-dark text-white p-5 mt-5 mb-5">
+      <h2>Popular Sites</h2>
+      <p>Booking.com (Travel) –<a href="https://www.booking.com">Visit Booking</a>
+
+For UI design ideas of listings, filters, and search results.<br>
+
+Airbnb Experiences – <a href="https://www.airbnb.com/s/experiences"> Explore Airbnb</a>
+
+For creative experience listings, descriptions, and souvenirs.<br>
+
+Expedia –<a href="https://www.expedia.co.in">Go to Expedia</a>
+
+Useful for travel packages, search boxes, and offers.</p>
+    </div>
+  </div>
+
+
+
+<!--Rates4-->
+   <div class="col-6">
+    <div class="bg-dark-subtle p-5 mt-5 mb-5">
+      <h2>Features</h2>
+      <p>K Tourism offers a complete travel guide with detailed information about popular destinations, historical places, and cultural attractions. The website provides tour packages, hotel recommendations, and travel tips for visitors. Users can explore beautiful image galleries and learn about the best time to visit each place. It also includes an easy booking and contact system for inquiries. K Tourism aims to make trip planning simple, convenient, and enjoyable for travelers.</p>
+  </div>
+  </div>
+
+
+<!--Contact Us-->
+<h2 id="contact us" class="fs-1 p-5 mt-5 text-center">Contact Us</h2>
+<div class="container col-md-6 bg-info-subtle p-4 mb-5 rounded shadow text-center">
+        <p>We are here to help you plan your perfect trip. If you have any questions about our tour packages, destinations, or booking process, feel free to contact us anytime. Our team is ready to assist you with personalized travel plans and quick support. Reach out to us by phone, email, or through our contact form, and we will respond as soon as possible. Let K Tourism make your journey smooth, enjoyable, and memorable.</p>
+        <button type="button" class="btn btn-primary btn-lg"><a href="#mailto:kruthishree004@gmail.com" class="text-white text-decoration-none">Contact Us For More Information</a></button>
+    </div>
+    </div>
+
+
+<h2 id="hotels" class="fs-1 p-5 mt-5 text-center">Relax In Beautiful Mysore</h2>
+<img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/27/4c/f2/fortune-jp-palace.jpg?w=1200&h=-1&s=1" alt="relax" width="1600">
+
+<footer class="bg-dark mt-5 p-5 text-white text-center">
+  <p>&copy; Tour Mysore Today</p>
+  <p> <a href="mailto:kruthishree004@gmail.com" class="text-white">Email us</a></p>
+</footer>
+
+
+</div>
+  
+
+
+
+
+<!--End of Container-->
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
